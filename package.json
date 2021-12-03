@@ -1,0 +1,27 @@
+{
+	"name": "request-header-parser-microservice",
+	"author": "jose.padin",
+	"description": "A simple request header parser",
+	"keywords": [
+		"request",
+		"headers",
+		"parsert"
+	],
+	"license": "MIT",
+	"version": "0.0.1",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "~10.0.0",
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jose-padin/request-header-parser"
+	},
+	"devDependencies": {
+	}
+}
